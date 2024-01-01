@@ -9,6 +9,11 @@ The smallest number primitive, taking 8-bits of memory and representing a number
 
 ```java
 byte byteNumber = 100;
+byte minByte = Byte.MIN_VALUE;
+byte maxByte = Byte.MAX_VALUE;
+System.out.println("Minimum Byte: " + minByte);
+System.out.println("Maximum Byte: " + maxByte);
+
 ```
 
 ### Short `short`
